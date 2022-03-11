@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document
+    </title>
+    <link rel="stylesheet" href="sty.css">
+</head>
+<body class="pretty">
+    <div class="heading" >
+        <h1 class="headText">Calculator</h1>
+    </div>
+    
+    <div class="MainBody">
+        <div>
+            <input type="text" id="display" class="display"> 
+        </div>
+        <div>
+            <input class="btn" type ="submit" onclick="ClrScreen()" value="C">
+            <button class="topbtn" onclick="BtnBack()"> Del </button>
+            <button class="btn" onclick="BtnClick('/')"> / </button>
+        </div>
+        <div>
+            <button class="btn" onclick="BtnClick(7)"> 7 </button>
+            <button class="btn" onclick="BtnClick(8)"> 8 </button>
+            <button class="btn" onclick="BtnClick(9)"> 9 </button>
+            <button class="btn" onclick="BtnClick('-')"> - </button>
+        </div>
+        <di>
+            <button class="btn" onclick="BtnClick(4)"> 4 </button>
+            <button class="btn" onclick="BtnClick(5)"> 5 </button>
+            <button class="btn" onclick="BtnClick(6)"> 6 </button>
+            <button class="btn" onclick="BtnClick('*')"> x </button>
+        </di>
+        <div>
+            <button class="btn" onclick="BtnClick(1)"> 1 </button>
+            <button class="btn" onclick="BtnClick(2)"> 2 </button>
+            <button class="btn" onclick="BtnClick(3)"> 3 </button>
+            <button class="btn" onclick="BtnClick('+')"> + </button>
+            
+        </div>
+        <div>
+            <button class="btn" onclick="BtnClick('.')"> . </button>
+            <button class="btn" onclick="BtnClick(0)"> 0 </button>
+            <button class="equal" onclick="calcu()"> = </button> 
+            
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>

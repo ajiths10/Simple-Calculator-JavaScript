@@ -1,0 +1,61 @@
+.MainBody{
+    background-color:rgba(60, 179, 114, 0.363);
+    width: 400px;
+    height: 500px;
+    margin-left: 35%;
+    margin-top: 2%;
+}
+
+.btn{
+    
+    width: 65px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 25px;
+    
+}
+
+.display{
+    width: 350px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
+    pointer-events: none;
+    
+}
+
+.heading{
+    background-color: mediumseagreen;
+    width: 1350px;
+    margin-left: 5%;
+    height: 70px;
+    margin-top: -33px;
+    
+}
+
+.headText{
+    margin-left: 550px;
+    margin-top: px;
+    color: rgb(240, 248, 255);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+
+}
+
+.pretty{
+    background-color: rgba(52, 52, 54, 0.76);
+}
+.topbtn{
+    width: 65px;
+    height: 50px;
+    margin-left: 30%;
+    margin-top: 25px;
+}
+
+.equal{
+    width: 170px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
